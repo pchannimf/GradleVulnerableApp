@@ -36,4 +36,5 @@ jobs:
     - name: Set GradleW Executable and Run the Buiild
       run: 
         chmod +x gradlew
+        
         ./gradlew clean build
